@@ -1,0 +1,58 @@
+											OOP CHECKLIST IN PYTHON
+* 1. Fundamentals of Classes and Objects
+ 	Understand what a class and an object are
+ 	Know the difference between class attributes and instance attributes
+ 	Understand how self works inside methods
+ 	Know the purpose and behavior of the __init__() constructor
+
+* 2. Encapsulation
+ 	Understand the difference between public, _protected, and __private attributes
+ 	Know how @property and @<property>.setter work
+ 	Understand why getters and setters are useful (validation, protection)
+ 	Know the difference between self.attr = value and self._attr = value
+
+* 3. Inheritance
+ 	Know how to create a subclass using class Sub(Base):
+ 	Understand how and when to use super().__init__()
+ 	Know what to override and what to inherit
+ 	Understand when inheritance is inappropriate and composition is a better choice
+
+* 4. Polymorphism
+ 	Understand that one interface can have multiple implementations (.read_sample(), __str__())
+ 	Know how to define a method in a base class and override it in subclasses
+ 	Know how to support polymorphism via magic methods like __len__, __add__, __eq__
+
+* 5. Abstraction
+ 	Know what an abstract class is (ABC)
+ 	Understand what @abstractmethod does
+ 	Understand the role of abstract methods and interfaces
+ 	Know the difference between an abstract method and one that raises NotImplementedError manually
+
+* 6. Magic Methods (Dunder Methods)
+ 	Understand __str__, __repr__ for object representation
+ 	Know how to use __add__, __eq__, __lt__, __hash__ for operator overloading and hashable objects
+ 	Understand __len__, __contains__, __getitem__, __setitem__ for custom collection behavior
+
+* 7. Composition vs Inheritance
+ 	Understand the difference between is-a (inheritance) and has-a (composition)
+ 	Know how to design a system where one object contains another (composition)
+ 	Understand when composition is preferable to inheritance
+
+* 8. Mixins
+ 	Know what a mixin is (a class with utility methods, no state)
+ 	Understand how to use mixins without breaking inheritance hierarchy (class A(Base, Mixin):)
+ 	Recognize when mixins are useful (e.g., Printable, Serializable)
+
+* 9. SOLID Principles
+ 	S – Single Responsibility: a class should do only one thing
+ 	O – Open/Closed: open for extension, closed for modification
+ 	L – Liskov Substitution: subclasses must be substitutable for base classes
+ 	I – Interface Segregation: prefer small, focused interfaces
+ 	D – Dependency Inversion: depend on abstractions, not concretions
+
+* 10. Design Patterns (for System Design)
+ 	Factory – creating objects with different input formats or logic
+ 	Strategy – selecting algorithms/behavior at runtime
+ 	Adapter – adapting one interface to another
+ 	Singleton – enforcing a single instance of a class
+ 	Observer – subscribing to and reacting to state changes or events

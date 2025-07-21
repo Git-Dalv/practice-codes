@@ -46,8 +46,3 @@ This example implements a singleton-style connection class in Python that restri
 | Decorator-Based    | Uses `@require_permission` to guard sensitive operations      |
 
 ---
-
-## Role & Permission Logic
-
-Roles are mapped to permission sets:
-
